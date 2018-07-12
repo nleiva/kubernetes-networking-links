@@ -9,6 +9,7 @@ Kubernetes Networking recommended reading list.
 
 ## Kubernetes Networking
 - [The Almighty Pause Container](https://www.ianlewis.org/en/almighty-pause-container)
+- There is No Such Thing as Container Networking, [recording](https://www.youtube.com/watch?v=t98CX8Tberc)
 - [Kubernetes Container Networking (Cisco Live 2018)](https://clnv.s3.amazonaws.com/2018/eur/pdf/BRKDCN-2390.pdf)
 - [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727)
 - [An illustrated guide to Kubernetes Networking [Part 1]](https://medium.com/@ApsOps/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727)
@@ -22,6 +23,8 @@ Kubernetes Networking recommended reading list.
 - [The ins and outs of networking in Google Container Engine and Kubernetes](https://speakerdeck.com/thockin/the-ins-and-outs-of-networking-in-google-container-engine), [recording](https://www.youtube.com/watch?v=y2bhV81MfKQ)
 - [Life of a Packet](https://github.com/sbueringer/kubecon-slides/blob/master/slides/2017-kubecon-eu/Life%20of%20a%20Packet%20%5BI%5D%20-%20Michael%20Rubin%2C%20Google%20-%20KubeCon%20EU%20'17-%20Life%20of%20a%20Packet.pdf), [recording](https://www.youtube.com/watch?v=0Omvgd7Hg1I)
 - [Operating a Kubernetes network](https://jvns.ca/blog/2017/10/10/operating-a-kubernetes-network/)
+- [Understanding the Kubernetes Networking Model](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
+- [Kubernetes Networking Master Class](https://rancher.com/events/2018/kubernetes-networking-masterclass-june-online-meetup/)
 
 ## CNI
 - [Container Network Interface Specification](https://github.com/containernetworking/cni/blob/master/SPEC.md)
@@ -30,7 +33,8 @@ Kubernetes Networking recommended reading list.
 - The Container Network Interface (CNI), [recording](https://www.youtube.com/watch?v=_-9kItVUUCw)
 - KubeCon "Container Network Interface: Network Plugins", [recording](https://www.youtube.com/watch?v=-DB1nxrUwbA)
 - [Kubernetes and the CNI Where We Are and What's Next](https://github.com/sbueringer/kubecon-slides/blob/master/slides/2018-kubecon-eu/Kubernetes%20and%20the%20CNI%20Where%20We%20Are%20and%20What's%20Next%20-%20Casey%20Callendrello%2C%20CoreOS%20(Intermediate%20Skill%20Level)%20-%20Kubernetes-and-the-CNI-Kubecon-218.pdf), [recording](https://www.youtube.com/watch?v=Vn6KYkNevBQ)
-
+- [Comparative Kubernetes networks solutions](https://www.objectif-libre.com/en/blog/2018/07/05/k8s-network-solutions-comparison/)
+- [Comparison of Networking Solutions for Kubernetes](http://machinezone.github.io/research/networking-solutions-for-kubernetes/)
 
 ## Service Mesh
 
