@@ -1,7 +1,9 @@
 <p align="center">
-  <img src="Kubernetes_logo.svg" width="768" height="136" title="Kubernetes Logo">
-  <b><font size="7">Networking Links</font></b><br>
+  <img width="512" height="91" title="Kubernetes Logo" src="Kubernetes_logo.svg"><br>
+  <b><font size="20px">Networking Links</font></b><br>
 </p>
+
+---
 
 Kubernetes Networking recommended reading list.
 
