@@ -27,7 +27,7 @@ Kubernetes Networking recommended reading list.
 ## Kubernetes Networking
 - [The Almighty Pause Container](https://www.ianlewis.org/en/almighty-pause-container) by [ianlewis](https://github.com/ianlewis)
 - There is No Such Thing as Container Networking, [recording](https://www.youtube.com/watch?v=t98CX8Tberc) by [kelseyhightower](https://github.com/kelseyhightower)
-- [Kubernetes Networking: Behind the scenes](https://medium.com/@nicolasleiva/kubernetes-networking-behind-the-scenes-39a1ab1792bb) by [nleiva](https://github.com/nleiva)
+- [Kubernetes Networking: Behind the scenes](https://medium.com/@nleiva/kubernetes-networking-behind-the-scenes-39a1ab1792bb) by [nleiva](https://github.com/nleiva)
 - [Kubernetes Container Networking (Cisco Live 2018)](https://clnv.s3.amazonaws.com/2018/eur/pdf/BRKDCN-2390.pdf)
 - [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727) by [Markbnj](https://github.com/Markbnj)
 - [An illustrated guide to Kubernetes Networking [Part 1]](https://medium.com/@ApsOps/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727) by [ApsOps](https://github.com/ApsOps)
