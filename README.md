@@ -57,6 +57,7 @@ Kubernetes Networking recommended reading list.
 
 ## CNI
 - [Container Network Interface Specification](https://github.com/containernetworking/cni/blob/master/SPEC.md)
+- [Container Network Interface and Go](https://www.youtube.com/watch?v=0SXPsLvB0UI)
 - [Understanding CNI (Container Networking Interface)](https://www.dasblinkenlichten.com/understanding-cni-container-networking-interface/)
 - CNI, the Container Network Interface, [recording](https://skillsmatter.com/skillscasts/10811-cni-the-container-network-interface) by [bboreham](https://github.com/bboreham)
 - The Container Network Interface (CNI), [recording](https://www.youtube.com/watch?v=_-9kItVUUCw) by [eyakubovich](https://github.com/eyakubovich)
@@ -65,6 +66,8 @@ Kubernetes Networking recommended reading list.
 - [Comparative Kubernetes networks solutions](https://www.objectif-libre.com/en/blog/2018/07/05/k8s-network-solutions-comparison/)
 - [Comparison of Networking Solutions for Kubernetes](http://machinezone.github.io/research/networking-solutions-for-kubernetes/)
 - [Comparative Kubernetes networks solutions](https://www.objectif-libre.com/en/blog/2018/07/05/k8s-network-solutions-comparison/)
+- [Large-scale network simulations in Kubernetes, Part 1 - Building a CNI plugin](https://networkop.co.uk/post/2018-11-k8s-topo-p1/)
+- [How to Write Your Own CNI Plug-in with Bash](https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash/)
 
 ## DNS
 - [5 – 15s DNS lookups on Kubernetes?](https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/) by [Quentin-M](https://github.com/Quentin-M)
