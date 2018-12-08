@@ -66,7 +66,9 @@ Kubernetes Networking recommended reading list.
 - [Comparative Kubernetes networks solutions](https://www.objectif-libre.com/en/blog/2018/07/05/k8s-network-solutions-comparison/)
 - [Comparison of Networking Solutions for Kubernetes](http://machinezone.github.io/research/networking-solutions-for-kubernetes/)
 - [Comparative Kubernetes networks solutions](https://www.objectif-libre.com/en/blog/2018/07/05/k8s-network-solutions-comparison/)
+- [Benchmark results of Kubernetes network plugins (CNI) over 10Gbit/s network](https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-36475925a560)
 - [Large-scale network simulations in Kubernetes, Part 1 - Building a CNI plugin](https://networkop.co.uk/post/2018-11-k8s-topo-p1/)
+- [Large-scale network simulations in Kubernetes, Part 2 - Network topology](https://networkop.co.uk/post/2018-11-k8s-topo-p2/)
 - [How to Write Your Own CNI Plug-in with Bash](https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash/)
 
 ## DNS
