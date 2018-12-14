@@ -80,3 +80,4 @@ Kubernetes Networking recommended reading list.
 ## Service Mesh
 
 - The Service Mesh: Past, Present, and Future, [recording](https://www.youtube.com/watch?v=2trOvMUuLkk) by [wmorgan](https://github.com/wmorgan)
+- [Using Istio Multicluster to "Burst" Workloads Between Clusters](https://codelabs.developers.google.com/codelabs/istio-multi-burst/#0)
