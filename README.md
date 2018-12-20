@@ -55,6 +55,15 @@ Kubernetes Networking recommended reading list.
 - [Using eBPF in Kubernetes](https://kubernetes.io/blog/2017/12/using-ebpf-in-kubernetes/)
 - [BPF and XDP Reference Guide](https://cilium.readthedocs.io/en/v1.1/bpf/) by [cilium](https://github.com/cilium)
 
+### IPv6
+- [Dual-stack Kubernetes with kubeadm-dind-cluster](http://blog.michali.net/2018/11/08/dual-stack-kubernetes-with-kubeadm-dind-cluster/) by [pmichali](https://github.com/pmichali)
+- [kube-v6](https://github.com/leblancd/kube-v6) by [leblancd](https://github.com/leblancd)
+- [Kubernetes in IPv6 only](https://opsnotice.xyz/kubernetes-ipv6-only/) by [valentin2105](https://github.com/valentin2105)
+- [Add IPv4/IPv6 dual stack KEP](https://github.com/kubernetes/enhancements/pull/648)
+
+### Multi-cluster
+- [Kubernetes multi-cluster networking made simple](https://medium.com/@nleiva/kubernetes-multi-cluster-networking-made-simple-c8f26827813) by [nleiva](https://github.com/nleiva)
+
 ## CNI
 - [Container Network Interface Specification](https://github.com/containernetworking/cni/blob/master/SPEC.md)
 - [Container Network Interface and Go](https://www.youtube.com/watch?v=0SXPsLvB0UI)
