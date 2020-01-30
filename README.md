@@ -17,6 +17,7 @@ Kubernetes Networking recommended reading list.
 ### Linux Namespaces
 - [Introducing Linux Network Namespaces](https://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces/) by [scottslowe](https://github.com/scottslowe)
 - [Making sense Of Linux namespaces](https://prefetch.net/blog/2018/02/22/making-sense-of-linux-namespaces/) by [Matty9191](https://github.com/Matty9191)
+- [A deep dive into Linux namespaces](http://ifeanyi.co/posts/linux-namespaces-part-1/) by [iffyio](https://github.com/iffyio)
 - [Namespaces in operation](https://lwn.net/Articles/531114/) by [mkerrisk](https://github.com/mkerrisk)
 - [Containers from Scratch](https://speakerdeck.com/ericchiang/coreos-fest-2017-containers-from-scratch), [recording](https://www.youtube.com/watch?v=wyqoi52k5jM) by [ericchiang](https://github.com/ericchiang)
 - Containers from scratch: The sequel, [recording](https://www.youtube.com/watch?v=_TsSmSu57Zo) by [lizrice](https://github.com/lizrice)
@@ -28,7 +29,6 @@ Kubernetes Networking recommended reading list.
 - [The Almighty Pause Container](https://www.ianlewis.org/en/almighty-pause-container) by [ianlewis](https://github.com/ianlewis)
 - There is No Such Thing as Container Networking, [recording](https://www.youtube.com/watch?v=t98CX8Tberc) by [kelseyhightower](https://github.com/kelseyhightower)
 - [Kubernetes Networking: Behind the scenes](https://medium.com/@nleiva/kubernetes-networking-behind-the-scenes-39a1ab1792bb) by [nleiva](https://github.com/nleiva)
-- [Kubernetes Container Networking (Cisco Live 2018)](https://clnv.s3.amazonaws.com/2018/eur/pdf/BRKDCN-2390.pdf)
 - [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727) by [Markbnj](https://github.com/Markbnj)
 - [An illustrated guide to Kubernetes Networking [Part 1]](https://medium.com/@ApsOps/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727) by [ApsOps](https://github.com/ApsOps)
 - [A Hacker’s Guide to Kubernetes Networking](https://thenewstack.io/hackers-guide-kubernetes-networking/) by [yaronha](https://github.com/yaronha)
