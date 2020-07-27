@@ -46,6 +46,8 @@ Kubernetes Networking recommended reading list.
 - [Operating a Kubernetes network](https://jvns.ca/blog/2017/10/10/operating-a-kubernetes-network/) by [jvns](https://github.com/jvns)
 - [Understanding the Kubernetes Networking Model](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/) by [soofaloofa](https://github.com/soofaloofa)
 - [Kubernetes Networking Master Class](https://rancher.com/events/2018/kubernetes-networking-masterclass-june-online-meetup/)
+- [Kubernetes and Networks - why is this so dang hard?](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard) by [thockin](https://github.com/thockin)
+- [Bringing Traffic Into Your Kubernetes Cluster](https://speakerdeck.com/thockin/bringing-traffic-into-your-kubernetes-cluster) by [thockin](https://github.com/thockin)
 
 ### IPVS
 - [IPVS-Based In-Cluster Load Balancing Deep Dive](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/)
@@ -57,6 +59,7 @@ Kubernetes Networking recommended reading list.
 - [BPF and XDP Reference Guide](https://cilium.readthedocs.io/en/v1.1/bpf/) by [cilium](https://github.com/cilium)
 
 ### IPv6
+- [IPv4/IPv6 dual-stack](https://kubernetes.io/docs/concepts/services-networking/dual-stack/)
 - [Dual-stack Kubernetes with kubeadm-dind-cluster](http://blog.michali.net/2018/11/08/dual-stack-kubernetes-with-kubeadm-dind-cluster/) by [pmichali](https://github.com/pmichali)
 - [kube-v6](https://github.com/leblancd/kube-v6) by [leblancd](https://github.com/leblancd)
 - [Kubernetes in IPv6 only](https://opsnotice.xyz/kubernetes-ipv6-only/) by [valentin2105](https://github.com/valentin2105)
