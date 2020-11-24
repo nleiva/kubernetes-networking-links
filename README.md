@@ -66,6 +66,7 @@ Kubernetes Networking recommended reading list.
 - [kube-v6](https://github.com/leblancd/kube-v6) by [leblancd](https://github.com/leblancd)
 - [Kubernetes in IPv6 only](https://opsnotice.xyz/kubernetes-ipv6-only/) by [valentin2105](https://github.com/valentin2105)
 - [Add IPv4/IPv6 dual stack KEP](https://github.com/kubernetes/enhancements/pull/648)
+* [How to run an IPv6 conformance cluster in AWS using kubeadm](https://github.com/aojea/k8s-aws-ipv6) by [aojea](https://github.com/aojea)
 
 ### Multi-cluster
 - [Kubernetes multi-cluster networking made simple](https://medium.com/@nleiva/kubernetes-multi-cluster-networking-made-simple-c8f26827813) by [nleiva](https://github.com/nleiva)
