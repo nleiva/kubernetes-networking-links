@@ -91,6 +91,8 @@ Kubernetes Networking recommended reading list.
 ### Calico
 - [Calico for Kubernetes networking: the basics & examples](https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69)
 
+### Ingress Controllers
+- [NGINX Ingress Controller Documentation](https://kubernetes.github.io/ingress-nginx/)
 
 ## DNS
 - [An Introduction to the Kubernetes DNS Service](https://www.digitalocean.com/community/tutorials/an-introduction-to-the-kubernetes-dns-service)
