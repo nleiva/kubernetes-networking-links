@@ -50,6 +50,7 @@ Kubernetes Networking recommended reading list.
 - [Kubernetes and Networks - why is this so dang hard?](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard) by [thockin](https://github.com/thockin)
 - [Bringing Traffic Into Your Kubernetes Cluster](https://speakerdeck.com/thockin/bringing-traffic-into-your-kubernetes-cluster) by [thockin](https://github.com/thockin)
 - [Deconstructing Kubernetes Networking](https://eevans.co/blog/deconstructing-kubernetes-networking/)
+[Certified Calico Operator: Level 1](https://academy.tigera.io/course/certified-calico-operator-level-1/)
 
 ### IPVS
 - [IPVS-Based In-Cluster Load Balancing Deep Dive](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/)
@@ -87,7 +88,17 @@ Kubernetes Networking recommended reading list.
 - [Large-scale network simulations in Kubernetes, Part 2 - Network topology](https://networkop.co.uk/post/2018-11-k8s-topo-p2/)
 - [How to Write Your Own CNI Plug-in with Bash](https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash/)
 
+## Ingress
+- [Kubernetes Ingress for Beginners](https://thenewstack.io/kubernetes-ingress-for-beginners/)
+- [NGINX Ingress Controller Documentation](https://kubernetes.github.io/ingress-nginx/)
+
+## Network Solutions Details
+
+### Calico
+- [Calico for Kubernetes networking: the basics & examples](https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69)
+
 ## DNS
+- [An Introduction to the Kubernetes DNS Service](https://www.digitalocean.com/community/tutorials/an-introduction-to-the-kubernetes-dns-service)
 - [5 – 15s DNS lookups on Kubernetes?](https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/) by [Quentin-M](https://github.com/Quentin-M)
 - [Debugging and Monitoring DNS issues in Kubernetes](https://cilium.io/blog/2019/12/18/how-to-debug-dns-issues-in-k8s/)
 
