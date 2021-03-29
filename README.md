@@ -29,7 +29,7 @@ Kubernetes Networking recommended reading list.
 - [The Almighty Pause Container](https://www.ianlewis.org/en/almighty-pause-container) by [ianlewis](https://github.com/ianlewis)
 - There is No Such Thing as Container Networking, [recording](https://www.youtube.com/watch?v=t98CX8Tberc) by [kelseyhightower](https://github.com/kelseyhightower)
 - [Kubernetes Networking: Behind the scenes](https://medium.com/@nleiva/kubernetes-networking-behind-the-scenes-39a1ab1792bb) by [nleiva](https://github.com/nleiva)
-- [Kubernetes Networking](https://dominik-tornow.medium.com/kubernetes-networking-22ea81af44d0)
+- [Kubernetes 101: Kubernetes Networking](https://dominik-tornow.medium.com/kubernetes-networking-22ea81af44d0)
 - [The Kubernetes Networking Guide](https://k8s.networkop.co.uk/) by [Michael Kashin](https://github.com/networkop)
 - [Kubernetes Networking Demystified: A Brief Guide](https://www.cncf.io/blog/2020/01/30/kubernetes-networking-demystified-a-brief-guide/)
 - [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727) by [Markbnj](https://github.com/Markbnj)
@@ -89,14 +89,14 @@ Kubernetes Networking recommended reading list.
 - [Large-scale network simulations in Kubernetes, Part 2 - Network topology](https://networkop.co.uk/post/2018-11-k8s-topo-p2/)
 - [How to Write Your Own CNI Plug-in with Bash](https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash/)
 
+### Calico
+- [Calico for Kubernetes networking: the basics & examples](https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69)
+
 ## Ingress
 - [Kubernetes Ingress for Beginners](https://thenewstack.io/kubernetes-ingress-for-beginners/)
 - [NGINX Ingress Controller Documentation](https://kubernetes.github.io/ingress-nginx/)
 
 ## Network Solutions Details
-
-### Calico
-- [Calico for Kubernetes networking: the basics & examples](https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69)
 
 ## DNS
 - [An Introduction to the Kubernetes DNS Service](https://www.digitalocean.com/community/tutorials/an-introduction-to-the-kubernetes-dns-service)
