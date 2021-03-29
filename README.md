@@ -29,6 +29,7 @@ Kubernetes Networking recommended reading list.
 - [The Almighty Pause Container](https://www.ianlewis.org/en/almighty-pause-container) by [ianlewis](https://github.com/ianlewis)
 - There is No Such Thing as Container Networking, [recording](https://www.youtube.com/watch?v=t98CX8Tberc) by [kelseyhightower](https://github.com/kelseyhightower)
 - [Kubernetes Networking: Behind the scenes](https://medium.com/@nleiva/kubernetes-networking-behind-the-scenes-39a1ab1792bb) by [nleiva](https://github.com/nleiva)
+- [Kubernetes Networking](https://dominik-tornow.medium.com/kubernetes-networking-22ea81af44d0)
 - [The Kubernetes Networking Guide](https://k8s.networkop.co.uk/) by [Michael Kashin](https://github.com/networkop)
 - [Kubernetes Networking Demystified: A Brief Guide](https://www.cncf.io/blog/2020/01/30/kubernetes-networking-demystified-a-brief-guide/)
 - [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727) by [Markbnj](https://github.com/Markbnj)
@@ -50,7 +51,7 @@ Kubernetes Networking recommended reading list.
 - [Kubernetes and Networks - why is this so dang hard?](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard) by [thockin](https://github.com/thockin)
 - [Bringing Traffic Into Your Kubernetes Cluster](https://speakerdeck.com/thockin/bringing-traffic-into-your-kubernetes-cluster) by [thockin](https://github.com/thockin)
 - [Deconstructing Kubernetes Networking](https://eevans.co/blog/deconstructing-kubernetes-networking/)
-[Certified Calico Operator: Level 1](https://academy.tigera.io/course/certified-calico-operator-level-1/)
+- [Certified Calico Operator: Level 1](https://academy.tigera.io/course/certified-calico-operator-level-1/)
 
 ### IPVS
 - [IPVS-Based In-Cluster Load Balancing Deep Dive](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/)
