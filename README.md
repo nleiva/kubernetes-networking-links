@@ -24,6 +24,7 @@ Kubernetes Networking recommended reading list.
 - [Linux Namespaces](https://medium.com/@teddyking/linux-namespaces-850489d3ccf) by [teddyking](https://github.com/teddyking)
 - [Namespaces, Threads, and Go](https://github.com/containernetworking/plugins/tree/master/pkg/ns) by [squeed](https://github.com/squeed)
   - [Linux Namespaces and Go Don't Mix](https://www.weave.works/blog/linux-namespaces-and-go-don-t-mix) by [brb](https://github.com/brb)
+- [Network Namespaces Basics Explained in 15 Minutes](https://www.youtube.com/watch?v=j_UUnlVC2Ss) by [Mumshad Mannambeth](https://github.com/mmumshad)
 
 ## Kubernetes Networking
 - [The Almighty Pause Container](https://www.ianlewis.org/en/almighty-pause-container) by [ianlewis](https://github.com/ianlewis)
