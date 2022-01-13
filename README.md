@@ -33,6 +33,7 @@ Kubernetes Networking recommended reading list.
 - [Kubernetes 101: Kubernetes Networking](https://dominik-tornow.medium.com/kubernetes-networking-22ea81af44d0)
 - [The Kubernetes Networking Guide](https://k8s.networkop.co.uk/) by [Michael Kashin](https://github.com/networkop)
 - [Kubernetes Networking Demystified: A Brief Guide](https://www.cncf.io/blog/2020/01/30/kubernetes-networking-demystified-a-brief-guide/)
+- [Tracing the path of network traffic in Kubernetes](https://learnk8s.io/kubernetes-network-packets) by [Kristijan](https://github.com/k-mitevski)
 - [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727) by [Markbnj](https://github.com/Markbnj)
 - [An illustrated guide to Kubernetes Networking [Part 1]](https://medium.com/@ApsOps/an-illustrated-guide-to-kubernetes-networking-part-1-d1ede3322727) by [ApsOps](https://github.com/ApsOps)
 - [A Hacker’s Guide to Kubernetes Networking](https://thenewstack.io/hackers-guide-kubernetes-networking/) by [yaronha](https://github.com/yaronha)
