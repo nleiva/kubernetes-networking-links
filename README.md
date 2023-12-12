@@ -56,6 +56,7 @@ Kubernetes Networking recommended reading list.
 - [Certified Calico Operator: Level 1](https://academy.tigera.io/course/certified-calico-operator-level-1/)
 - [Networking and Kubernetes: A Layered Approach](https://learning.oreilly.com/library/view/kubernetes-networking/9781492081647/) by [strongjz](https://twitter.com/strongjz) and [Vallery Lancey](https://twitter.com/vllry)
 - [Let's talk about Kubernetes on the Internet](https://raesene.github.io/blog/2022/07/03/lets-talk-about-kubernetes-on-the-internet/): Talks about exposed Kubernetes clusters on the Internet by [Rory McCune](https://github.com/raesene)
+- [Kubernetes Networking Explained – Guide for Beginners](https://spacelift.io/blog/kubernetes-networking)
 
 ### IPVS
 - [IPVS-Based In-Cluster Load Balancing Deep Dive](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/)
