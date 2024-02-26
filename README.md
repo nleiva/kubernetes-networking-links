@@ -99,7 +99,7 @@ Kubernetes Networking recommended reading list.
 
 ## Ingress
 - [Kubernetes Ingress for Beginners](https://thenewstack.io/kubernetes-ingress-for-beginners/)
-- [NGINX Ingress Controller Documentation](https://kubernetes.github.io/ingress-nginx/)
+- [Kubernetes Ingress with NGINX Ingress Controller Example](https://kubernetes.github.io/ingress-nginx/): Explores the Ingress object in Kubernetes (K8s). Step-by-step walk through setting up an NGINX Ingress controller with Azure Kubernetes Service (AKS).
 
 ## Network Solutions Details
 
