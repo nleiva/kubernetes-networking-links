@@ -8,11 +8,20 @@
 Kubernetes Networking recommended reading list.
 
 ## Linux Networking
-- [Linux Networking Explained](https://events.static.linuxfound.org/sites/events/files/slides/2016%20-%20Linux%20Networking%20explained_0.pdf) by [tgraf](https://github.com/tgraf)
-- [An In-Depth Guide to iptables, the Linux Firewall](https://www.booleanworld.com/depth-guide-iptables-linux-firewall/) by [supriyo-biswas](https://github.com/supriyo-biswas)
+- [Linux Kernel Networking Walkthrough](https://www.slideshare.net/ThomasGraf5/linuxcon-2015-linux-kernel-networking-walkthrough): Getting packets from/to the NIC, Packet processing (TCP/IP Processing, Queuing from/to userspace (Socket Buffers, Flow Control) by [tgraf](https://github.com/tgraf)
+- [Linux Networking Explained](https://events.static.linuxfound.org/sites/events/files/slides/2016%20-%20Linux%20Networking%20explained_0.pdf): Network devices, Namespaces, Routing, Veth, VLAN, IPVLAN, MACVLAN, MACVTAP, Bonding, Team, OVS, Bridge, BPF, IPSec by [tgraf](https://github.com/tgraf)
 - Monitoring and Tuning the Linux Networking Stack:
   - [Receiving Data](https://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/)
   - [Sending Data](https://blog.packagecloud.io/eng/2017/02/06/monitoring-tuning-linux-networking-stack-sending-data/)
+### Netfilter 
+- [An In-Depth Guide to iptables, the Linux Firewall](https://www.booleanworld.com/depth-guide-iptables-linux-firewall/) by [supriyo-biswas](https://github.com/supriyo-biswas)
+- [Benchmarking nftables](https://developers.redhat.com/blog/2017/04/11/benchmarking-nftables): Regarding scalability, `ipset` is a blessing to any `iptables` set up. `Nftables` follow the path with their native implementation of sets and take the concept to a higher level by extending the list of supported data types and allowing it to be used in further applications using (verdict) maps.
+- [Nftables ruleset debug/tracing](https://wiki.nftables.org/wiki-nftables/index.php/Ruleset_debug/tracing): This is an equivalent of the old iptables method -J TRACE, but with some great improvements.
+- - [kube-proxy nftables and iptables vs a Service with 100k endpoints](https://gist.github.com/aojea/f9ca1a51e2afd03621744c95bfdab5b8): Iptables performance is limited mainly by two reasons; Latency on the first packet of a connection caused by the linear search rule matching, Latency on the programming latency caused by the need to save and restore all the lines to the kernel in each transaction. The kernel community moved to `nftables` as replacement of `iptables`, with the goal of removing the existing performance bottlenecks by [Antonio Ojea](https://github.com/aojea)
+- [Iptables the end of an era](https://www.youtube.com/watch?v=h7Y2eaBwCqc): Kubernetes has decided to implement a new nftables proxy by [Antonio Ojea](https://github.com/aojea)
+- [Add an nftables-based kube-proxy backend](https://github.com/kubernetes/enhancements/tree/master/keps/sig-network/3866-nftables-proxy): The default kube-proxy implementation on Linux is currently based on iptables. IPTables was the preferred packet filtering and processing system in the Linux kernel for many years (starting with the 2.4 kernel in 2001). However, problems with iptables led to the development of a successor, nftables, first made available in the 3.13 kernel in 2014, and growing increasingly featureful and usable as a replacement for iptables since then. Development on iptables has mostly stopped, with new features and performance improvements primarily going into nftables instead by [Dan Winship](https://github.com/danwinship).
+### Sockets
+- [High-Speed Packet Transmission in Go: From net.Dial to AF_XDP](https://toonk.io/sending-network-packets-in-go/index.html): Sending as many packets per second from a Linux machine by [Andree Toonk](https://github.com/atoonk)
 
 ### Linux Namespaces
 - [Introducing Linux Network Namespaces](https://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces/) by [scottslowe](https://github.com/scottslowe)
@@ -57,6 +66,7 @@ Kubernetes Networking recommended reading list.
 - [Networking and Kubernetes: A Layered Approach](https://learning.oreilly.com/library/view/kubernetes-networking/9781492081647/) by [strongjz](https://twitter.com/strongjz) and [Vallery Lancey](https://twitter.com/vllry)
 - [Let's talk about Kubernetes on the Internet](https://raesene.github.io/blog/2022/07/03/lets-talk-about-kubernetes-on-the-internet/): Talks about exposed Kubernetes clusters on the Internet by [Rory McCune](https://github.com/raesene)
 - [Kubernetes Networking Explained – Guide for Beginners](https://spacelift.io/blog/kubernetes-networking)
+- [How Container Networking Works: a Docker Bridge Network From Scratch](https://labs.iximiuz.com/tutorials/container-networking-from-scratch): Learn how to virtualize network environments, connect multiple Linux containers using veth pairs and Linux bridge devices, and even tried to configure IP routing and NAT to enable connectivity between the containers and the outside world by [Ivan Velichko](https://github.com/iximiuz)
 
 ### IPVS
 - [IPVS-Based In-Cluster Load Balancing Deep Dive](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/)
@@ -66,6 +76,9 @@ Kubernetes Networking recommended reading list.
 - [Why is the kernel community replacing iptables with BPF?](https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/) by [cilium](https://github.com/cilium)
 - [Using eBPF in Kubernetes](https://kubernetes.io/blog/2017/12/using-ebpf-in-kubernetes/)
 - [BPF and XDP Reference Guide](https://cilium.readthedocs.io/en/v1.1/bpf/) by [cilium](https://github.com/cilium)
+- [pwru (packet, where are you?)](https://github.com/cilium/pwru)
+- [Dive into BPF: a list of reading material](https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/)
+- [The eXpress Data Path](https://blogs.igalia.com/dpino/2019/01/10/the-express-data-path/): Review of the eXpress Data Path, the new kernel component for fast packet processing.
 
 ### IPv6
 - [IPv4/IPv6 dual-stack](https://kubernetes.io/docs/concepts/services-networking/dual-stack/)
@@ -107,6 +120,7 @@ Kubernetes Networking recommended reading list.
 - [An Introduction to the Kubernetes DNS Service](https://www.digitalocean.com/community/tutorials/an-introduction-to-the-kubernetes-dns-service)
 - [5 – 15s DNS lookups on Kubernetes?](https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/) by [Quentin-M](https://github.com/Quentin-M)
 - [Debugging and Monitoring DNS issues in Kubernetes](https://cilium.io/blog/2019/12/18/how-to-debug-dns-issues-in-k8s/)
+- [Kubernetes DNS at scale](https://gist.github.com/aojea/32aeaa86aacebcdd93596ecb70fcba4f): Environments may operate at large scales (+10k nodes) and it seems that the DNS protocol has some limitations, mainly the number of records that fit into a DNS answer by [Antonio Ojea](https://github.com/aojea)
 
 ## Routing
 - [Kubernetes Traffic Engineering with BGP](https://www.asykim.com/blog/kubernetes-traffic-engineering-with-bgp) by [andrewsykim](https://github.com/andrewsykim)
