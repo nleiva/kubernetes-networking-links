@@ -121,6 +121,7 @@ Kubernetes Networking recommended reading list.
 - [5 – 15s DNS lookups on Kubernetes?](https://blog.quentin-machu.fr/2018/06/24/5-15s-dns-lookups-on-kubernetes/) by [Quentin-M](https://github.com/Quentin-M)
 - [Debugging and Monitoring DNS issues in Kubernetes](https://cilium.io/blog/2019/12/18/how-to-debug-dns-issues-in-k8s/)
 - [Kubernetes DNS at scale](https://gist.github.com/aojea/32aeaa86aacebcdd93596ecb70fcba4f): Environments may operate at large scales (+10k nodes) and it seems that the DNS protocol has some limitations, mainly the number of records that fit into a DNS answer by [Antonio Ojea](https://github.com/aojea)
+- [Kubernetes pods /etc/resolv.conf ndots:5 option and why it may negatively affect your application performances](https://pracucci.com/kubernetes-dns-resolution-ndots-options-and-why-it-may-affect-application-performances.html)
 
 ## Routing
 - [Kubernetes Traffic Engineering with BGP](https://www.asykim.com/blog/kubernetes-traffic-engineering-with-bgp) by [andrewsykim](https://github.com/andrewsykim)
